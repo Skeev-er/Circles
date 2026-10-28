@@ -8,7 +8,7 @@ private:
 	int green;
 	int blue;
 	int alpha;
-	int radius; 
+	int radius;
 	int diameter;
 	int x;
 	int y;

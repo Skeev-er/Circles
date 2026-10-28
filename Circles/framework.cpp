@@ -73,6 +73,7 @@ void ChangeColour(unsigned char red, unsigned char green,
 
 void DrawCircle(int x, int y, int radius)
 {
+
     gCircleShape.setPosition((float)x, (float)y);
     gCircleShape.setRadius((float)radius);
     // draw our circle shape to the window

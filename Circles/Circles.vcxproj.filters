@@ -24,6 +24,8 @@
     <ClInclude Include="Framework.h">
       <Filter>Framework</Filter>
     </ClInclude>
-    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Circle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

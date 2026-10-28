@@ -26,7 +26,7 @@ int main()
 		for (int i = 0; i < CircleVector.size(); i++)
 		{
 			CircleVector[i].Draw(); // Draws the circle at position [i] in the vector
-			CircleVector[i].Update(); // Handles movement and wall collision :)
+			CircleVector[i].Update(); // Handles movement and wall collision
 		}
 
 		if (IsButtonPressed(EButton::eRight) && IsButtonPressed(EButton::eLeft) && CircleVector.size() < maxSize)
@@ -36,4 +36,3 @@ int main()
 	}
 	return 0;
 }
-
